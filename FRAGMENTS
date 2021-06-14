@@ -1,0 +1,11 @@
+first.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment, First())
+                .commit()
+        }
+
+        second.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment, Second())
+                .commit()
+        }
